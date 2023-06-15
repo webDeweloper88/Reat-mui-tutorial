@@ -27,6 +27,9 @@ export const MuiSelect = () => {
               SelectProps={{
                 multiple: true,
               }}
+              size="small"
+              color="primary"
+              helperText="Mamlakatlarni tanlang"
             >
               <MenuItem value="us">USA</MenuItem>
               <MenuItem value="IN">India</MenuItem>
