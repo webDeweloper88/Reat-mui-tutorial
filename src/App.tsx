@@ -1,16 +1,19 @@
 // import Muitypography from './components/Muitypography'
 // import MuiButton from './components/MuiButton'
-import { MuiTextField } from './components/MuiTextField'
-import './App.css'
+// import { MuiTextField } from './components/MuiTextField'
+import { MuiSelect } from "./components/MuiSelect";
+
+import "./App.css";
 
 const App = () => {
   return (
-    <div className='app'>
+    <div className="app">
       {/* <Muitypography/> */}
       {/* <MuiButton/> */}
-      <MuiTextField />
+      {/* <MuiTextField /> */}
+      <MuiSelect />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
